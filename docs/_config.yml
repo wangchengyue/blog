@@ -1,1 +1,7 @@
-theme: jekyll-theme-architect
+menu:
+  home: / || home
+  reading: /reading/ || book
+  archives: /archives/ || archive
+  categories: /categories/ || th
+  #tags: /tags/ || tags
+  about: /about/ || user
