@@ -35,3 +35,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+### Linux 系統上下載遠程的ftp服務器的文件以及文件夾
+
+普通的ftp文件服務系統，並不能批量下載子目錄，我們可以使用wget 命令使用，
+先創建好你要將文件保存到的目錄，然後執行的```wget``` 命令:
+```#wget ftp://IP:PORT/* --ftp-user=xxx --ftp-password=xxx -r```
